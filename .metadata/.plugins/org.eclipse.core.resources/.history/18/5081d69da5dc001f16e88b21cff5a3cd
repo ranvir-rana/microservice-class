@@ -1,0 +1,11 @@
+package com.example.demo;
+
+public class Disease {
+
+	public Disease() {
+		// TODO Auto-generated constructor stub
+	}
+	private String id;
+	private String description;
+	private String treatment;
+}

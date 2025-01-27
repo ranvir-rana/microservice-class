@@ -1,0 +1,13 @@
+package com.example.demo;
+
+public class Employee {
+
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+
+	private String id;
+	private String firstName;
+	private String lastName;
+	private String speciality;
+}

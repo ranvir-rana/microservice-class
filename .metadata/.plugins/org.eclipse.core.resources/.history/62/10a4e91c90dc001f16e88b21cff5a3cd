@@ -1,0 +1,18 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyEndpoint3 {
+
+	public MyEndpoint3() {
+		// TODO Auto-generated constructor stub
+	}
+	@Autowired
+	ExampleProperties props;
+	@RequestMapping("/greetOthers")
+	public String greet(@RequestParaam String details)
+	{
+		return props.getGreeting() + ":" + details;
+	}
+}

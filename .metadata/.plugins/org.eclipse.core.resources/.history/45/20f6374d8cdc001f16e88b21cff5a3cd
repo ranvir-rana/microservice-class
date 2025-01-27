@@ -1,0 +1,12 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class UserDAOService {
+
+	public UserDAOService() {
+		// TODO Auto-generated constructor stub
+	}
+	private static List<User> users =  new ArrayList<>();
+}

@@ -1,0 +1,14 @@
+package com.example.demo;
+
+import java.util.List;
+
+@Component
+public class EmployeeList {
+
+	public EmployeeList() {
+		// TODO Auto-generated constructor stub
+	}
+
+	private List<Employee> employee;
+	
+}

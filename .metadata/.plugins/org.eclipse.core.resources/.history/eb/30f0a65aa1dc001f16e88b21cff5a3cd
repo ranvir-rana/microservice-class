@@ -1,0 +1,22 @@
+package com.example.demo;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/hr")
+public class HRResource {
+
+	public HRResource() {
+		// TODO Auto-generated constructor stub
+	}
+	List<Employee> employees = Arrays.asList(
+			new Employee("e1","User","name 1","");
+			new Employee("e2","User","name 1","");
+			new Employee("e3","User","name 1","");
+			);
+	
+	
+}

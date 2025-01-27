@@ -1,0 +1,12 @@
+package com.example.demo;
+
+@RestController
+public class HRResource {
+
+	public HRResource() {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+}

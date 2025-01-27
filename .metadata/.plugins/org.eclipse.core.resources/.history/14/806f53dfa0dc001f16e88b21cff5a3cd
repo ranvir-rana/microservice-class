@@ -1,0 +1,11 @@
+package com.example.demo;
+
+@Component
+public class EmployeeList {
+
+	public EmployeeList() {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+}

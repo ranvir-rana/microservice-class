@@ -1,0 +1,9 @@
+package com.example.demo;
+@Component
+public class UserDAOService {
+
+	public UserDAOService() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.example.demo;
+
+@RestController
+public class MyEndpoint3 {
+
+	public MyEndpoint3() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

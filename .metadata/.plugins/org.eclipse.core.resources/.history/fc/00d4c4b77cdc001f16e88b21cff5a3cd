@@ -1,0 +1,18 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyEndpoint1 {
+
+	public MyEndpoint1() {
+		// TODO Auto-generated constructor stub
+	}
+	@RequestMapping("/mypage")
+	public String myString()
+	{
+		return "First Microservice Example";
+		
+	}
+}

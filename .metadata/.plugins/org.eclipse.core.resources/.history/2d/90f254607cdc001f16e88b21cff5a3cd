@@ -1,0 +1,9 @@
+package com.example.demo;
+
+public class MyEndpoint1 {
+
+	public MyEndpoint1() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

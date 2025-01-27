@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\Users\ranvir\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\.metadata\.plugins\org.eclipse.jdt.core
+3521483538.index
+3435648363.index
+1865797976.index
+465855475.index
+1667071626.index
