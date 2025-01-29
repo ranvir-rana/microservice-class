@@ -29,7 +29,7 @@ public class DiseaseResource {
 	@RequestMapping("/diseases/{id}")
 	public Disease getDiseaseById(@PathVariable("id") String id)
 	{
-		Disease e =  diseases.stream().filter(diseases -> id.equals(diseases.getId())).findAny().orElse(null);
+		Disease e =  diseases.stream().filter(disease -> id.equals(disease.getId())).findAny().orElse(null);
 		return e;
 	}
 }
