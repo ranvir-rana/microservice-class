@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+# Gateway configuration (if using Spring Cloud Gateway)
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: employeeModule
+          uri: http://localhost:8081
+          predicates:
+            - Path=/employee/**
+        - id: consumerModule
+          uri: http://localhost:8082
+          predicates:
+            - Path=/consumer/**
+
+# Enable logging for debugging routes (optional)
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          gateway: DEBUG

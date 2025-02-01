@@ -10,4 +10,7 @@
     <fullyQualifiedTypeName name="org.springframework.web.reactive.function.client.WebClient"/>
     <fullyQualifiedTypeName name="org.springframework.web.reactive.function.client.WebClient.Builder"/>
     <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.common.serialization.IntegerSerializer"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.common.serialization.StringSerializer"/>
 </qualifiedTypeNameHistroy>

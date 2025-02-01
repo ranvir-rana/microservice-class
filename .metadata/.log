@@ -3477,3 +3477,394 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:j
 !MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:4.2.0
 !SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-01-30 14:21:41.155
 !MESSAGE Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:4.2.0
+!SESSION 2025-01-31 06:48:51.489 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-31 06:48:56.823
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-31 06:49:00.773
+!MESSAGE Logback config file: C:\Users\ranvir\Documents\workspace-microservice\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-01-31 06:49:01.618
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-31 06:49:01.618
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-01-31 06:49:02.176
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-31 06:49:02.176
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-01-31 06:49:08.403
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-31 06:49:10.186
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ranvir'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.321
+!MESSAGE Boot project ADDED: admissions-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.324
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.424
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.444
+!MESSAGE Boot project ADDED: config-server-profile
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.453
+!MESSAGE Boot project ADDED: database-per-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.465
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.469
+!MESSAGE Boot project ADDED: discovery-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-31 06:49:10.473
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Software\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/ranvir/Documents/workspace-microservice/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1738295350470
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Software\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.476
+!MESSAGE Boot project ADDED: feign-app-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.478
+!MESSAGE Boot project ADDED: feign-client-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.479
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.483
+!MESSAGE Boot project ADDED: firstproject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.487
+!MESSAGE Boot project ADDED: hr-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.517
+!MESSAGE Boot project ADDED: movie-catalog-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.526
+!MESSAGE Boot project ADDED: movie-catalog-service-circuit
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.535
+!MESSAGE Boot project ADDED: movie-catalog-service-copy
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.542
+!MESSAGE Boot project ADDED: moview-info-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.549
+!MESSAGE Boot project ADDED: pathalogy-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.580
+!MESSAGE Boot project ADDED: property-access-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.592
+!MESSAGE Boot project ADDED: ratings-data-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.601
+!MESSAGE Boot project ADDED: resilience4j-pattern
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.611
+!MESSAGE Boot project ADDED: shared-database-pattern
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 06:49:10.625
+!MESSAGE Boot project ADDED: webclient-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-31 06:49:10.792
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3084
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:20:44.912
+!MESSAGE Classpath changed for project: api-gateway-service1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-01-31 07:20:44.920
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:98)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:20:46.852
+!MESSAGE Classpath changed for project: api-gateway-service1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:20:46.854
+!MESSAGE Boot project ADDED: api-gateway-service1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:20:47.974
+!MESSAGE Classpath changed for project: api-gateway-service1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:24:54.422
+!MESSAGE Classpath changed for project: api-gateway-service2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:24:54.476
+!MESSAGE Boot project ADDED: api-gateway-service2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:24:55.990
+!MESSAGE Classpath changed for project: api-gateway-service2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:24:56.977
+!MESSAGE Classpath changed for project: api-gateway-service2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:32:49.282
+!MESSAGE Classpath changed for project: api-gateway-demo1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:32:49.287
+!MESSAGE Boot project ADDED: api-gateway-demo1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-01-31 07:32:49.430
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-gateway:4.2.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.2.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.2.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-01-31 07:32:49.434
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.2.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-01-31 07:32:49.434
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.2.0
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:32:53.377
+!MESSAGE Classpath changed for project: api-gateway-demo1
+
+!ENTRY org.eclipse.jface 2 0 2025-01-31 07:35:57.578
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-01-31 07:35:57.578
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:37:31.444
+!MESSAGE Classpath changed for project: api-gateway-demo1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:58:46.513
+!MESSAGE Classpath changed for project: api-gateway-demo2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:58:46.516
+!MESSAGE Boot project ADDED: api-gateway-demo2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:58:48.069
+!MESSAGE Classpath changed for project: api-gateway-demo2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 07:58:48.762
+!MESSAGE Classpath changed for project: api-gateway-demo2
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-01-31 07:59:25.340
+!MESSAGE Marker id 3030 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/api-gateway-demo2/src/main/resources/application.properties)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:872)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalConditionalExpandToLevel(AbstractTreeViewer.java:1858)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1139)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.reexpandCategories(ExtendedMarkersView.java:1172)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:105)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2025-01-31 07:59:25.342
+!MESSAGE Marker id 3030 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:872)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalConditionalExpandToLevel(AbstractTreeViewer.java:1858)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1139)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.reexpandCategories(ExtendedMarkersView.java:1172)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:105)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 08:23:02.244
+!MESSAGE Classpath changed for project: eureka-discovery-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 08:23:02.245
+!MESSAGE Boot project ADDED: eureka-discovery-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 08:23:08.172
+!MESSAGE Classpath changed for project: eureka-discovery-server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 09:03:32.120
+!MESSAGE Classpath changed for project: api-gateway-eureka-service1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 09:03:32.127
+!MESSAGE Boot project ADDED: api-gateway-eureka-service1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 09:03:35.826
+!MESSAGE Classpath changed for project: api-gateway-eureka-service1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 09:03:37.456
+!MESSAGE Classpath changed for project: api-gateway-eureka-service1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 09:08:01.799
+!MESSAGE Classpath changed for project: api-gateway-eureka-service2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 09:08:01.802
+!MESSAGE Boot project ADDED: api-gateway-eureka-service2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 09:08:07.466
+!MESSAGE Classpath changed for project: api-gateway-eureka-service2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 09:28:21.765
+!MESSAGE Classpath changed for project: api-gateway-eureka-demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 09:28:21.767
+!MESSAGE Boot project ADDED: api-gateway-eureka-demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 09:28:29.569
+!MESSAGE Classpath changed for project: api-gateway-eureka-demo
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-01-31 09:28:56.145
+!MESSAGE LS Hover Html and JDT hover html were naively concatenated as LS hover HTML BODY tag wasn't found
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 12:46:29.124
+!MESSAGE Classpath changed for project: kafka-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 12:46:29.130
+!MESSAGE Boot project ADDED: kafka-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 12:46:32.579
+!MESSAGE Classpath changed for project: kafka-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 12:46:43.007
+!MESSAGE Classpath changed for project: kafka-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-31 12:46:48.877
+!MESSAGE Classpath changed for project: kafka-service
